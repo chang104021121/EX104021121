@@ -6,10 +6,8 @@ public class ex5 {
         // write your code here
         Scanner scn =new Scanner(System.in);
         int v1 = scn.nextInt() ;
-        int a = scn.nextInt() ;
-        int b = scn.nextInt() ;
-        int c = scn.nextInt() ;
-        int d = scn.nextInt() ;
+        int a , b, c, d;
+
         if(v1>=1000){
             a=v1/1000;
             v1=v1%1000;
@@ -31,21 +29,17 @@ public class ex5 {
                 if(10<=v1&&v1<100){
                     c=v1/10;
                     v1=v1%10;
-                    d=v1/1;
+                    d=v1 ;
                     System.out.println(c+"ten"+d+"dollar");
-                }else{
-                    if(v1<10&&v1>=0){
-                        System.out.println(d+"dollar");
-
-                    }
                 }
+//                else{
+//                    if(v1<10 && v1 >= 0){
+//                        System.out.println(d+"dollar");
+//
+//                    }
+//                }
             }
 
         }
-
-
-
-
-
     }
 }
